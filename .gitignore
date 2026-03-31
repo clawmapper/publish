@@ -1,0 +1,12 @@
+node_modules/
+
+# SQLite database and WAL files
+*.db
+*.db-shm
+*.db-wal
+
+# Environment
+.env
+
+# macOS
+.DS_Store

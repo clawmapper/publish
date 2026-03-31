@@ -1,0 +1,26 @@
+{
+  "name": "publish-service",
+  "version": "1.0.0",
+  "description": "Self-hosted HTML publishing service for AI agents",
+  "main": "server.js",
+  "bin": {
+    "publish": "./cli.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.0.0",
+    "commander": "^12.1.0",
+    "debug": "^4.4.3",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "express-session": "^1.18.0",
+    "resend": "^3.2.0"
+  }
+}
